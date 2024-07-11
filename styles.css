@@ -61,6 +61,7 @@ nav {
   letter-spacing: 0%;
   text-align: center;
   margin-bottom: 32px;
+  color: rgba(29, 43, 75, 0.7);
 }
 
 .hero-btn {
@@ -152,7 +153,7 @@ nav {
   border-radius: 50%;
 }
 
-
+/* ------------------- */
 #motivation {
   background-color: rgb(255, 255, 255);
   padding: 32px 32px 32px 32px;
@@ -189,16 +190,16 @@ nav {
 #target {
   background-color: rgb(255, 255, 255);
   padding: 32px 32px 32px 32px;
+  margin-top: 10px;
   margin-bottom: 10px;
   display: flex;
   justify-content: center;
   /* background-color: rgb(243, 187, 181); */
 }
 
-
 #target .target-content {
   width: 998px;
-  margin: 40px;
+  margin: 50px;
 }
 
 #target .target-title {
@@ -208,7 +209,6 @@ nav {
   display: flex;
   justify-content: center;
 
-
 }
 
 #target .target-title h1,
@@ -216,4 +216,30 @@ nav {
   letter-spacing: 0%;
   text-align: center;
   margin-bottom: 20px;
+}
+
+
+#target .target-card {
+  display: flex;
+  gap: 40px;
+
+}
+
+
+#target .target-card .target-card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#target.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#target .img{
+  width: 259.56px;
+  height: 217.01px;
+  border-radius: 50%;
 }
