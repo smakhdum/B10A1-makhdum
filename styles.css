@@ -151,3 +151,69 @@ nav {
   height: 217.01px;
   border-radius: 50%;
 }
+
+
+#motivation {
+  background-color: rgb(255, 255, 255);
+  padding: 32px 32px 32px 32px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  /* background-color: rgb(243, 187, 181); */
+}
+
+
+#motivation .moti-content {
+  width: 998px;
+  margin: 40px;
+}
+
+#motivation .moti-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+#motivation .moti-title h1,
+#motivation .moti-title p {
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* -------------------- */
+#target {
+  background-color: rgb(255, 255, 255);
+  padding: 32px 32px 32px 32px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  /* background-color: rgb(243, 187, 181); */
+}
+
+
+#target .target-content {
+  width: 998px;
+  margin: 40px;
+}
+
+#target .target-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+#target .target-title h1,
+#target .target-title p {
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
