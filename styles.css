@@ -141,7 +141,7 @@ nav {
   gap: 20px;
 }
 
-.card-container {
+#development .card-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -150,15 +150,15 @@ nav {
 .img{
   width: 259.56px;
   height: 217.01px;
-  border-radius: 50%;
 }
 
 /* ------------------- */
 #motivation {
   background-color: rgb(255, 255, 255);
   padding: 32px 32px 32px 32px;
-  margin-bottom: 10px;
+
   display: flex;
+  margin: 0px 10px auto;
   justify-content: center;
   /* background-color: rgb(243, 187, 181); */
 }
@@ -197,6 +197,7 @@ nav {
   /* background-color: rgb(243, 187, 181); */
 }
 
+
 #target .target-content {
   width: 998px;
   margin: 50px;
@@ -218,13 +219,17 @@ nav {
   margin-bottom: 20px;
 }
 
+#target .card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 #target .target-card {
   display: flex;
   gap: 40px;
 
 }
-
 
 #target .target-card .target-card-details {
   display: flex;
@@ -239,7 +244,161 @@ nav {
 }
 
 #target .img{
-  width: 259.56px;
-  height: 217.01px;
-  border-radius: 50%;
+  width: 40.45px;
+  height: 45.12px;
+}
+
+.target-btn, .nexttar-button {
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  border: none;
+  text-decoration: underline;
+  text-align: left;
+}
+
+
+#nexttar {
+  background-color: rgb(255, 255, 255);
+  padding: 32px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  /* background-color: rgb(243, 187, 181); */
+}
+
+#nexttar .nexttar-content {
+  width: 998px;
+  margin: 50px;
+}
+
+#nexttar .nexttar-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+#nexttar .nexttar-title h1,
+#nexttar .nexttar-title p {
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#nexttar .nexttar-card {
+  display: flex;
+  gap: 40px;
+}
+
+#nexttar .nexttar-card .nexttar-card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#nexttar .card-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 60px;
+}
+
+#nexttar .card-container .img {
+  width: 143.3px;
+  height: 87.75px;
+}
+
+
+#support {
+  background-image: url('assets/handshake.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  width: 998px;
+  margin: 0px auto;
+  height: 314px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#support .support-content {
+  margin: 50px;
+  text-align: center;
+}
+
+#support .support-title {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 68px;
+  margin-bottom: 32px;
+}
+
+#support .support-details {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 32px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.form-bar {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid rgb(13, 19, 33);
+  width: 300px;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+
+/* ----------------- */
+
+
+.footer{ 
+
+  padding: 32px 32px 32px 32px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+
+
+
+
+
+  /* background-color: rgb(243, 187, 181); */
+}
+
+.footer .footer-content {
+  width: 998px;
+  margin: 50px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
 }
