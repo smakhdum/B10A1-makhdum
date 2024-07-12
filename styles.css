@@ -369,7 +369,6 @@ nav {
   border-radius: 8px;
   color: rgb(0, 0, 0);
   background: rgb(255, 255, 255);
-  font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
@@ -380,14 +379,14 @@ nav {
 /* ----------------- */
 
 
-.footer {
+#footer {
   padding: 32px;
   margin: 10px 0;
   display: flex;
   justify-content: center;
 }
 
-.footer .footer-content {
+#footer .footer-content {
   width: 998px;
   margin: 0 auto; /* Center content */
   display: flex;
