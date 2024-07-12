@@ -147,7 +147,7 @@ nav {
   justify-content: space-between;
 }
 
-.img{
+.img {
   width: 259.56px;
   height: 217.01px;
 }
@@ -243,12 +243,13 @@ nav {
   justify-content: space-between;
 }
 
-#target .img{
+#target .img {
   width: 40.45px;
   height: 45.12px;
 }
 
-.target-btn, .nexttar-button {
+.target-btn,
+.nexttar-button {
   font-family: Azeret Mono;
   font-size: 20px;
   font-weight: 600;
@@ -388,7 +389,8 @@ nav {
 
 #footer .footer-content {
   width: 998px;
-  margin: 0 auto; /* Center content */
+  margin: 0 auto;
+  /* Center content */
   display: flex;
   justify-content: space-between;
   align-items: center;
