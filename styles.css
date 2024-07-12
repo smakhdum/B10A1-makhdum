@@ -115,6 +115,7 @@ nav {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   margin-bottom: 32px;
+  font-size: larger;
   display: flex;
   justify-content: center;
 
@@ -144,7 +145,8 @@ nav {
 #development .card-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 50px;
 }
 
 .img {
@@ -173,6 +175,8 @@ nav {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   margin-bottom: 32px;
+  font-size: larger;
+
   display: flex;
   justify-content: center;
 
@@ -209,6 +213,8 @@ nav {
   margin-bottom: 32px;
   display: flex;
   justify-content: center;
+  font-size: larger;
+
 
 }
 
@@ -282,6 +288,8 @@ nav {
   margin-bottom: 32px;
   display: flex;
   justify-content: center;
+  font-size: larger;
+
 }
 
 #nexttar .nexttar-title h1,
